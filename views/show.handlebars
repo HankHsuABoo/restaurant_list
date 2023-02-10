@@ -1,0 +1,37 @@
+<div class="container py-5">
+  <div class="text-center">
+    <h1 class="mb-4">{{restaurant.name}}</h1>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+      <p class="mb-1">
+        <span class="text-secondary">
+          類別：
+        </span>
+        {{restaurant.category}}
+      </p>
+      
+      <p class="mb-1">
+        <span class="text-secondary">
+          地址：
+        </span>
+        {{restaurant.location}}
+      </p>
+      
+      <p class="mb-1">
+        <span class="text-secondary">
+          電話：
+        </span>
+        {{restaurant.phone}}
+      </p>
+      
+      <p class="mb-5">
+        {{restaurant.description}}
+      </p>
+      
+      <img class="rounded mx-auto d-block mb-4 w-100"
+        src="{{restaurant.image}}" alt="{{restaurant.name}}"
+        style="max-width: 600px;">
+    </div>
+  </div>
+</div>
