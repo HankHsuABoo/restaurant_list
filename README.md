@@ -20,7 +20,7 @@
 2. 打開終端機，複製此專案至本機電腦。
    Open the terminal and clone this project.
 ```
-git clone https://github.com/JohnnyFangFangFang/2-3-front-a1-restaurant-list.git
+git clone https://github.com/HankHsuABoo/restaurant_list.git
 ```
 3. 進入專案資料夾。
    Enter the project folder.
